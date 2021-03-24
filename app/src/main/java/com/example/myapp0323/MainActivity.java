@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button gomb1 = findViewById(R.id.gomb1);
         EditText info = findViewById(R.id.edit);
-
+        EditText infoketto  =findViewById(R.id.edit2);
         gomb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
