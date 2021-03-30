@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, NewActivity.class);
                 i.putExtra("uzenet", info.getText().toString());
-                i.putExtra("key","value");
+                i.putExtra("uzenet2", infoketto.getText().toString());
                 startActivity(i);
             }
         });

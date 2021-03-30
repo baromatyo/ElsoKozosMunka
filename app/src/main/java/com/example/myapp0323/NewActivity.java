@@ -18,9 +18,7 @@ public class NewActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
 
         if(extras != null){
-            szerkeszt.setText(extras.getString("uzenet")+extras.getString("key"));
+            szerkeszt.setText(extras.getString("uzenet")+extras.getString("uzenet2"));
         }
-
-
     }
 }
