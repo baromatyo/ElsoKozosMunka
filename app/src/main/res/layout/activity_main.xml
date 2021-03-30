@@ -17,7 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/edit2"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit">
 
     </EditText>
 
@@ -26,8 +27,9 @@
         android:text="gomb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edit"
+        android:layout_below="@+id/edit2"
         android:layout_centerHorizontal="true"
+
         ></Button>
 
 </RelativeLayout>
